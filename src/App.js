@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import Story from "./components/Story/Story";
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+  return <Story></Story>;
+};
 
-export default App
+export default App;
