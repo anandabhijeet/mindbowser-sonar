@@ -1,9 +1,9 @@
 import React from "react";
 import { Stack, Container, Row, Col } from "react-bootstrap";
 import "./Story.css";
-import Story1 from "../../assets/svg/story-1.svg";
-import Story2 from "../../assets/svg/story-2.svg";
-import Story3 from "../../assets/svg/story-3.svg";
+import Story1 from "../../assets/svg/story/story-1.svg";
+import Story2 from "../../assets/svg/story/story-2.svg";
+import Story3 from "../../assets/svg/story/story-3.svg";
 
 const Story = () => {
   return (
@@ -12,7 +12,7 @@ const Story = () => {
         <div className="story-heading fs-1">Our Story</div>
         <Container>
           <Row className="col-spacing">
-            <Col xl={6} lg={6} md={6} sm>
+            <Col xl={6} lg={6} md={6} sm={12} xs={12}>
               <img src={Story1} className="story-img" alt="Story Image" />
             </Col>
 
@@ -32,8 +32,15 @@ const Story = () => {
             </Col>
           </Row>
 
-          {/*<Row className="col-spacing">
-            <Col xl={6} lg={6} md={6} className="story-content-container">
+          <Row className="col-spacing">
+            <Col
+              xl={{ span: 6, order: "first" }}
+              lg={{ span: 6, order: "first" }}
+              md={{ span: 6, order: "first" }}
+              sm={{ span: 12, order: "last" }}
+              xs={{ span: 12, order: "last" }}
+              className="story-content-container"
+            >
               <p className="left-story-content">
                 Gabe & Drew, bonded by a passion for improving mental healthcare
                 and frustration about the lack of tools available to youth and
@@ -44,8 +51,14 @@ const Story = () => {
                 when our loved ones require support.
               </p>
             </Col>
-            <Col xl={6} lg={6} md={6}>
-              <img src={Story2} alt="Story Image" />
+            <Col
+              xl={{ span: 6, order: "last" }}
+              lg={{ span: 6, order: "last" }}
+              md={{ span: 6, order: "last" }}
+              sm={{ span: 12, order: "first" }}
+              xs={{ span: 12, order: "first" }}
+            >
+              <img src={Story2} alt="Story Image" className="story-img" />
             </Col>
           </Row>
 
@@ -64,7 +77,7 @@ const Story = () => {
                 support and improves the quality of care they receive.
               </p>
             </Col>
-          </Row>*/}
+          </Row>
         </Container>
       </div>
     </Stack>

@@ -1,8 +1,8 @@
 import React from "react";
-import Story from "./components/Story/Story";
+import MainPage from "./pages";
 
 const App = () => {
-  return <Story></Story>;
+  return <MainPage></MainPage>;
 };
 
 export default App;
