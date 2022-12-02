@@ -3,6 +3,7 @@ import { Container, Row, Col, Stack} from "react-bootstrap";
 import group from "../../assets/svg/group.svg";
 import MissionVissonCard from "./components/card";
 import {cardData} from "../../data/cardData";
+import fish from "../../assets/images/Fish-SVG.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./hero.css";
@@ -14,7 +15,7 @@ const Hero = () => {
   return (
     <div>
       <div className="hero">
-        <Container data-aos="fade-zoom-in" data-aos-duration="600"  className="px-5">
+        <Container data-aos="fade-zoom-in" data-aos-duration="600"  className="hero-container px-5">
           <Row>
             <Col xs={12} sm={12} md={12} lg={6} xl={6}>
               <Stack className="aboutUs-stack">
@@ -48,6 +49,9 @@ const Hero = () => {
               />
             </Col>
           </Row>
+          <div className="img-fish">
+            <img className="fish" width="100%" height="100%"  src={fish} alt="fish" />
+          </div>
         </Container>
       </div>
       <div className="hero-curve"></div>
