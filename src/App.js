@@ -1,8 +1,10 @@
-import React from "react";
-import MainPage from "./pages";
+import React from 'react'
+import Home from './pages'
 
 const App = () => {
-  return <MainPage></MainPage>;
-};
+  return (
+    <Home />
+  )
+}
 
 export default App;

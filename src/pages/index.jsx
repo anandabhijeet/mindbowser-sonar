@@ -1,13 +1,21 @@
+import React from 'react'
+import Header from '../components/header/header'
+import Hero from '../components/hero/hero'
+import "./home.css"
+
 import Story from "../components/Story/Story";
 import Footer from "../components/Footer/Footer";
 
-const MainPage = () => {
-  return (
-    <>
-      <Story></Story>
-      <Footer></Footer>
-    </>
-  );
-};
+const Home = () => {
+    return (
+        <>
+            <Header />
+            <Hero />
+            <Story></Story>
 
-export default MainPage;
+
+            <Footer></Footer>
+        </>
+    )
+}
+export default Home
