@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Stack, Container, Row, Col } from "react-bootstrap";
+import { storyData } from "../../data/StaticData";
 import "./Story.css";
-import { storyData } from "./allStory";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Story = () => {
+  useEffect(() => {
+    AOS.init({
+      once: true
+    });
+  }, [])
   return (
     <Stack>
       <div className="story-bg">
@@ -11,7 +18,7 @@ const Story = () => {
         <Container>
           {storyData.map((item, index) => {
             return (
-              <div className="col-spacing">
+              <div className="col-spacing" data-aos="fade-zoom-in" data-aos-duration="600">
                 {index % 2 == 0 ? (
                   <Row>
                     <Col xl={6} lg={6} md={6} sm={12} xs={12}>

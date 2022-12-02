@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Footer.css";
 import {
   Stack,
@@ -11,14 +11,22 @@ import {
 } from "react-bootstrap";
 import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { BsEnvelope } from "react-icons/bs";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({
+      once: true
+    });
+  }, [])
+
   return (
     <Stack className="footer-bg">
       <div className="content-container">
         <Container fluid>
           <Row>
-            <Col xl={6} lg={5} md={12} sm={12} xs={12}>
+            <Col xl={6} lg={5} md={12} sm={12} xs={12} data-aos="fade-right" data-aos-duration="2500">
               <div className="left-content p-5">
                 <div className="left-heading fs-3">Get Sonar, Inc.</div>
                 <div className="social-icons mt-2">
@@ -34,7 +42,7 @@ const Footer = () => {
               </div>
             </Col>
 
-            <Col xl={6} lg={7} md={12} sm={12} xs={12}>
+            <Col xl={6} lg={7} md={12} sm={12} xs={12} data-aos="fade-left" data-aos-duration="2500">
               <div className="right-content p-5">
                 <div className="right-heading my-4">
                   Sign up to join our pod and get early access to Sonar.

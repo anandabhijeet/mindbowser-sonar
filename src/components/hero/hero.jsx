@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col, Stack } from "react-bootstrap";
-import group from "../../assets/svg/group.svg";
+import group from "../../assets/svg/hero/group.svg"
 import MissionVissonCard from "./components/card";
-import { cardData } from "../../data/cardData";
+import { cardData } from "../../data/StaticData";
 import fish from "../../assets/images/Fish-SVG.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -10,7 +10,9 @@ import "./hero.css";
 
 const Hero = () => {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      once: true
+    });
   }, [])
   return (
     <div>
