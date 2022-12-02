@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Home from './pages'
 
 const App = () => {
+  useEffect(() => {
+    window.history.scrollRestoration = 'manual'
+  }, []);
   return (
-    <div>App</div>
+    <Home />
   )
 }
 
-export default App
+export default App;

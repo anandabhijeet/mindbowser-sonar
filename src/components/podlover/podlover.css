@@ -1,0 +1,86 @@
+.pod-container {
+    background-color: #F9F9F9;
+}
+
+.screen-container {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #F9F9F9;
+}
+
+.pod-left-container {
+    padding-top: 20px;
+}
+
+.pod-title {
+    font-size: 30px;
+    font-family: 'PoppinsSemiBold';
+    color: #1D1D1D;
+}
+
+.pod-description {
+    font-size: 18px;
+    font-family: 'PoppinsRegular';
+    color: #1D1D1D;
+    margin-top: 24px;
+    line-height: 29px;
+}
+
+.pod-writer {
+    font-size: 16px;
+    font-family: 'PoppinsSemiBold';
+    color: #1D1D1D;
+    margin-top: 16px;
+}
+
+.pod-btn {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 3px solid #BE65E6;
+    border-radius: 8px;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #BE65E6;
+}
+
+.pod-image-bg {
+    height: 325px;
+    width: 325px;
+    border-radius: 200px;
+    background-color: #C2EEFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-right-icon {
+    margin-left: 7px;
+}
+
+@media screen and (max-width:768px) {
+    .pod-left-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pod-description {
+        text-align: center;
+    }
+
+    .pod-title {
+        text-align: center;
+    }
+
+    .pod-right-container {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
