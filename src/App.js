@@ -1,8 +1,14 @@
 import React from 'react'
+import OurTeam from './components/ourteam/OurTeam'
+import PodLover from './components/podlover/PodLover'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <OurTeam />
+      <OurTeam isAdvisor={true} />
+      <PodLover />
+    </>
   )
 }
 
