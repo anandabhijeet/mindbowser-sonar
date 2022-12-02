@@ -1,7 +1,10 @@
+:root{
+    --teal: #2CA3D1;
+    --hoverTeal: #1F7697;
+}
+
 .header{
     background-color: #fff !important;
-
-    
 }
 .header-container{
     padding: 5px 55px 5px 55px;
