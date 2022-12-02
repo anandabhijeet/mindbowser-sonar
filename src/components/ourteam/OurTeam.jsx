@@ -21,12 +21,12 @@ function OurTeam({
     return (
         <div>
             <Container className={isAdvisor ? 'advisor-container' : 'main-container'} >
-                <h4 className='team-title' data-aos="fade-zoom-in" data-aos-duration="600">{isAdvisor ? "Our Advisors" : "Our Team"}</h4>
+                <h4 className='team-title' data-aos="fade-zoom-in" data-aos-duration="1000">{isAdvisor ? "Our Advisors" : "Our Team"}</h4>
                 <div className="row d-flex justify-content-md-center list-wrapper">
                     {
                         teamListData.map((obj) => {
                             return (
-                                <div className='col-xs-6 col-sm-5 col-md-4 col-lg-3 team-card' data-aos="fade-zoom-in" data-aos-duration="600">
+                                <div className='col-xs-6 col-sm-5 col-md-4 col-lg-3 team-card' data-aos="fade-zoom-in" data-aos-duration="1000">
                                     <div className='position-relative'>
                                         <img src={isAdvisor ? AdvisorBg : TeamProfileBg} className={'team-background'} />
                                         <img src={obj.employee_image} className={'rounded-circle  p-0 employee-image'} />

@@ -31,7 +31,7 @@ function PodLover() {
                             <CgArrowLongRight color='#BE65E6' size={23} className='arrow-right-icon' />
                         </button>
                     </div>
-                    <div className='col-xs-12 col-sm-12 col-md-6 col-lg-5 d-flex justify-content-md-center pod-right-container' data-aos="fade-zoom-in" data-aos-duration="3000">
+                    <div className='col-xs-12 col-sm-12 col-md-6 col-lg-5 d-flex justify-content-md-center pod-right-container' data-aos="fade-zoom-in" data-aos-duration="1000">
                         <div className='pod-image-bg'>
                             <img src={ThinkingLady} className='pod-thinking-lady-image' />
                         </div>
