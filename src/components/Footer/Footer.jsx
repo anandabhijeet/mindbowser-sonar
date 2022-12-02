@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="content-container">
         <Container fluid>
           <Row>
-            <Col xl={6} lg={5} md={12} sm={12} xs={12} data-aos="fade-right" data-aos-duration="2500">
+            <Col xl={6} lg={5} md={12} sm={12} xs={12} data-aos="fade-right" data-aos-duration="1000">
               <div className="left-content p-5">
                 <div className="left-heading fs-3">Get Sonar, Inc.</div>
                 <div className="social-icons mt-2">
@@ -42,7 +42,7 @@ const Footer = () => {
               </div>
             </Col>
 
-            <Col xl={6} lg={7} md={12} sm={12} xs={12} data-aos="fade-left" data-aos-duration="2500">
+            <Col xl={6} lg={7} md={12} sm={12} xs={12} data-aos="fade-left" data-aos-duration="1000">
               <div className="right-content p-5">
                 <div className="right-heading my-4">
                   Sign up to join our pod and get early access to Sonar.

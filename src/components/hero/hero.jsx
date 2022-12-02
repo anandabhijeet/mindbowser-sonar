@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <div>
       <div className="hero">
-        <Container data-aos="fade-zoom-in" data-aos-duration="600" className="hero-container px-5">
+        <Container data-aos="fade-zoom-in" data-aos-duration="1000" className="hero-container px-5">
           <Row>
             <Col xs={12} sm={12} md={12} lg={6} xl={6}>
               <Stack className="aboutUs-stack">
@@ -61,7 +61,7 @@ const Hero = () => {
         <Container>
           <Row>
             {cardData.map((card, index) => (
-              <Col data-aos="fade-zoom-in" data-aos-duration="600" xs={12} sm={12} md={12} lg={6} xl={6} className="cardCol" key={index}>
+              <Col data-aos="fade-zoom-in" data-aos-duration="1000" xs={12} sm={12} md={12} lg={6} xl={6} className="cardCol" key={index}>
                 <MissionVissonCard title={card.title} content={card.content} backgroundColor={card.backgroundColor} />
               </Col>
             ))}
