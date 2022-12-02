@@ -1,9 +1,24 @@
 import React from 'react'
+import Header from '../components/header/header'
+import Hero from '../components/hero/hero'
+import "./home.css"
 
-function MainPage() {
+import Story from "../components/story/Story";
+import Footer from "../components/footer/Footer";
+import OurTeam from '../components/ourteam/OurTeam';
+import PodLover from '../components/podlover/PodLover';
+
+const Home = () => {
     return (
-        <div>index</div>
+        <>
+            <Header />
+            <Hero />
+            <Story />
+            <OurTeam />
+            <OurTeam isAdvisor={true} />
+            <PodLover />
+            <Footer />
+        </>
     )
 }
-
-export default MainPage
+export default Home

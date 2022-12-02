@@ -1,15 +1,13 @@
-import React from 'react'
-import OurTeam from './components/ourteam/OurTeam'
-import PodLover from './components/podlover/PodLover'
+import React, { useEffect } from 'react'
+import Home from './pages'
 
 const App = () => {
+  useEffect(() => {
+    window.history.scrollRestoration = 'manual'
+  }, []);
   return (
-    <>
-      <OurTeam />
-      <OurTeam isAdvisor={true} />
-      <PodLover />
-    </>
+    <Home />
   )
 }
 
-export default App
+export default App;

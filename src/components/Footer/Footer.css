@@ -1,0 +1,133 @@
+.footer-bg {
+    background-color: #C2EEFF;
+    padding-bottom: 60px;
+}
+
+.right-content {
+    margin-left: 40px;
+}
+
+.left-heading {
+    font-family: 'PoppinsSemiBold', sans-serif
+}
+
+.right-heading {
+    font-size: 18px;
+}
+
+.list-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-items li {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.input-label {
+    font-family: 'PoppinsSemiBold', sans-serif
+}
+
+.email-field {
+    border: 1px solid #BABABA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border-left: unset;
+}
+
+.form-button {
+    font-family: 'PoppinsSemiBold', sans-serif;
+    background-color: #BE65E6;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.form-button:hover {
+    background-color: #BE65E6;
+}
+
+::placeholder {
+    font-size: 18px;
+    position: relative;
+    left: -10px;
+}
+
+.btn-column {
+    position: relative; 
+    padding-left: 0;
+}
+
+@media (min-width: 1500px) { 
+    .content-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-content {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .right-content {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 1200px) { 
+    .right-content {
+        padding-right: 35px !important;
+    }
+}
+
+@media (max-width: 990px) { 
+    .left-content {
+        text-align: center;
+        padding-bottom: 10px !important;
+    }
+
+    .right-content {
+        text-align: center;
+        padding: 20px !important;
+        margin-left: 0 !important;
+    }
+
+    .list-items {
+        margin-top: 1.5rem !important;
+    }
+
+    .list-items li {
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .btn-column {
+        position: unset;
+        padding-left: 12px;
+    }
+
+    .form-button {
+        position: unset;
+        bottom: unset;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 500px) { 
+    .right-heading {
+        font-size: 17px !important;
+    }
+}
