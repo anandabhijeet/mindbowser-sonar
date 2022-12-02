@@ -18,7 +18,7 @@ const Story = () => {
         <Container>
           {storyData.map((item, index) => {
             return (
-              <div className="col-spacing" data-aos="fade-zoom-in" data-aos-duration="600">
+              <div className="col-spacing" data-aos="fade-zoom-in" data-aos-duration="1000">
                 {index % 2 == 0 ? (
                   <Row>
                     <Col xl={6} lg={6} md={6} sm={12} xs={12}>
