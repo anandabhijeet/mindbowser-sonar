@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mindbowser-sonar/static/css/main.89558f2f.css",
-    "main.js": "/mindbowser-sonar/static/js/main.75109d50.js",
+    "main.js": "/mindbowser-sonar/static/js/main.e8d0c463.js",
     "static/js/787.a55cb8e7.chunk.js": "/mindbowser-sonar/static/js/787.a55cb8e7.chunk.js",
     "static/media/Poppins-SemiBold.otf": "/mindbowser-sonar/static/media/Poppins-SemiBold.daed8dfe825ca62d84b8.otf",
     "static/media/Poppins-Bold.otf": "/mindbowser-sonar/static/media/Poppins-Bold.b5c5cbad4c3e1e9f4fec.otf",
@@ -21,11 +21,11 @@
     "static/media/advisor-background.svg": "/mindbowser-sonar/static/media/advisor-background.b07074f9fc802f8d508dbcc33669f8ac.svg",
     "static/media/team-profile-background.svg": "/mindbowser-sonar/static/media/team-profile-background.2031708d70af11ce12a383fcc1b18462.svg",
     "main.89558f2f.css.map": "/mindbowser-sonar/static/css/main.89558f2f.css.map",
-    "main.75109d50.js.map": "/mindbowser-sonar/static/js/main.75109d50.js.map",
+    "main.e8d0c463.js.map": "/mindbowser-sonar/static/js/main.e8d0c463.js.map",
     "787.a55cb8e7.chunk.js.map": "/mindbowser-sonar/static/js/787.a55cb8e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89558f2f.css",
-    "static/js/main.75109d50.js"
+    "static/js/main.e8d0c463.js"
   ]
 }
