@@ -22,8 +22,8 @@ function Header() {
             
           </Nav>
           <Nav>
-            <Button className='m-1 custom-teal-buttons-signUp'>Sign Up</Button>
-            <Button className='m-1 custom-teal-button-login' variant="outline-info" >Login</Button>
+            <Button className='mx-1 custom-teal-buttons-signUp'>Sign Up</Button>
+            <Button className='mx-1 custom-teal-button-login' variant="outline-info" >Login</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
