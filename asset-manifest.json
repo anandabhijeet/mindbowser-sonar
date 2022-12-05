@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mindbowser-sonar/static/css/main.89558f2f.css",
-    "main.js": "/mindbowser-sonar/static/js/main.e8d0c463.js",
+    "main.css": "/mindbowser-sonar/static/css/main.b298ad0f.css",
+    "main.js": "/mindbowser-sonar/static/js/main.e121f7f9.js",
     "static/js/787.a55cb8e7.chunk.js": "/mindbowser-sonar/static/js/787.a55cb8e7.chunk.js",
     "static/media/Poppins-SemiBold.otf": "/mindbowser-sonar/static/media/Poppins-SemiBold.daed8dfe825ca62d84b8.otf",
     "static/media/Poppins-Bold.otf": "/mindbowser-sonar/static/media/Poppins-Bold.b5c5cbad4c3e1e9f4fec.otf",
@@ -12,20 +12,20 @@
     "static/media/Poppins-Medium.otf": "/mindbowser-sonar/static/media/Poppins-Medium.2175351766d1d5e18c15.otf",
     "static/media/Poppins-Black.otf": "/mindbowser-sonar/static/media/Poppins-Black.9e5def582b1916bda929.otf",
     "static/media/Poppins-Thin.otf": "/mindbowser-sonar/static/media/Poppins-Thin.85a73d99edcc0f4b9a7d.otf",
-    "static/media/story-1.svg": "/mindbowser-sonar/static/media/story-1.266df1f1fb58bffbd4a54c6ccc8364ee.svg",
-    "static/media/story-3.svg": "/mindbowser-sonar/static/media/story-3.d94f5ad04ac588d48c6f5e6a1f7c6883.svg",
-    "static/media/group.svg": "/mindbowser-sonar/static/media/group.a11d448f075f1af1ebb1fb3dd0667b7e.svg",
-    "static/media/story-2.svg": "/mindbowser-sonar/static/media/story-2.9d24068fd983525fb4699ad374f0e110.svg",
-    "static/media/pod-thinking-lady.svg": "/mindbowser-sonar/static/media/pod-thinking-lady.f221af214f42f34eec19e121fb3ee694.svg",
+    "static/media/story-1.svg": "/mindbowser-sonar/static/media/story-1.b0d3481bc3362f9771a3967f77048815.svg",
+    "static/media/story-3.svg": "/mindbowser-sonar/static/media/story-3.aa15a3dda29bdccebc336a7e9e498731.svg",
+    "static/media/group.svg": "/mindbowser-sonar/static/media/group.c78a926fa7578726b51fc539a608a614.svg",
+    "static/media/story-2.svg": "/mindbowser-sonar/static/media/story-2.27eff6868983e8a611baf82799429580.svg",
+    "static/media/pod-thinking-lady.svg": "/mindbowser-sonar/static/media/pod-thinking-lady.9226b7e15007bb3937313f3ad8c8d820.svg",
     "index.html": "/mindbowser-sonar/index.html",
-    "static/media/advisor-background.svg": "/mindbowser-sonar/static/media/advisor-background.b07074f9fc802f8d508dbcc33669f8ac.svg",
-    "static/media/team-profile-background.svg": "/mindbowser-sonar/static/media/team-profile-background.2031708d70af11ce12a383fcc1b18462.svg",
-    "main.89558f2f.css.map": "/mindbowser-sonar/static/css/main.89558f2f.css.map",
-    "main.e8d0c463.js.map": "/mindbowser-sonar/static/js/main.e8d0c463.js.map",
+    "static/media/advisor-background.svg": "/mindbowser-sonar/static/media/advisor-background.56be11df73b83af25425a15dae4b8022.svg",
+    "static/media/team-profile-background.svg": "/mindbowser-sonar/static/media/team-profile-background.dcc95da5a8df78a6a67eeb5e9dffac7a.svg",
+    "main.b298ad0f.css.map": "/mindbowser-sonar/static/css/main.b298ad0f.css.map",
+    "main.e121f7f9.js.map": "/mindbowser-sonar/static/js/main.e121f7f9.js.map",
     "787.a55cb8e7.chunk.js.map": "/mindbowser-sonar/static/js/787.a55cb8e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89558f2f.css",
-    "static/js/main.e8d0c463.js"
+    "static/css/main.b298ad0f.css",
+    "static/js/main.e121f7f9.js"
   ]
 }
