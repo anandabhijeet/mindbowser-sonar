@@ -73,3 +73,14 @@
 
     }
 }
+
+@media  screen and (width<=768px) {
+    .custom-teal-buttons-signUp{
+        margin:8px 0px 8px 0px;
+    }
+
+    .custom-teal-button-login{
+        margin:8px 0px 8px 0px;
+    }
+    
+}
